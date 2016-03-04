@@ -18,7 +18,8 @@ $config['modules_locations'] = array(
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/advertising/';
+$config['base_url']	= '';
+//$config['base_url']	= 'http://localhost/advertising/';
 //$config['base_url']	= 'http://advertising.gedelumbung.com/';
 
 /*
@@ -229,7 +230,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'AppAdvertising32';
+$config['encryption_key'] = 'JSDoOHUzSXeWa0jurTOKeQPEQRqMdOEM';
 
 /*
 |--------------------------------------------------------------------------
@@ -361,7 +362,7 @@ $config['rewrite_short_tags'] = FALSE;
 |
 */
 $config['proxy_ips'] = '';
-$config['key_login'] = "AppAdvertising32";
+$config['key_login'] = "JSDoOHUzSXeWa0jurTOKeQPEQRqMdOEM";
 $config['limit_item'] = 5;
 $config['limit_item_medium'] = 10;
 $config['limit_item_big'] = 15;
